@@ -1,4 +1,4 @@
-# Add character in string at any position 
+# Add character in string at given position 
 
 # one way to do it 
 
@@ -19,7 +19,7 @@ if __name__ == '__main__':
 # Second way to do it   
 
 def mutate_string(string, position, character):
-    
+
     string= string[:position] + character + string[position+1:]
 
     return string
