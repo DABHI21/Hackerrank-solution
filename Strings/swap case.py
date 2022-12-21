@@ -1,4 +1,4 @@
-# swap cases: In any string convert words in Upper case to Lower case and print it.
+# swap cases: In any string convert letters in Upper case to Lower case and vice versa.
 
 def swap_case(s):
     a=''
