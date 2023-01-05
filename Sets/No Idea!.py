@@ -1,4 +1,7 @@
+# count the happiness 
+
 # method 1 for solve this Problem 
+
 # m=input()
 # n=input().split()
 # a=input().split()
