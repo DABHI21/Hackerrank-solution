@@ -1,7 +1,7 @@
 '''
 Give string as input and split in to (string / k) parts after that you find the set of this substrings 
-and print every substring sset into newline.
- 
+and print every substring  into newline.
+
 '''
 def merge_the_tools(string, k):
     for i in range(0, len(string), k):
