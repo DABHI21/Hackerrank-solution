@@ -1,11 +1,8 @@
 from itertools import combinations
 
-A,x= list(map(str,input().split()))
-# word=sorted(list(combinations(A,len(A)>=int(x))))
-# for i in word:
-#     print(''.join(i))
-    
-words=sorted(list(combinations(A,int(x)))) 
-print(words)
-# for i in words:
-#     print(''.join(i))
+s,k = input().strip().split()
+s = sorted(s)
+for i in range(1,int(k)+1):
+    ls = list(combinations(s,int(i))) 
+    for x in ls:
+        print("".join(x))
